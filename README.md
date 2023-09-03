@@ -1,7 +1,6 @@
-<<<<<<< HEAD
-# Store
+# 购物商城v0.1
 React Store Demo 
-#### 第三方包的作用
+## 第三方包的作用
 
 - 路由管理：React-router-dom
 - 用户界面：Antd
@@ -11,7 +10,7 @@ React Store Demo
 - 网络请求：Axios
 - 调试工具：redux-devtools-extension
 - 日期包：moment 
-#### 执行整个流程：
+## 执行整个流程：
 
 ui组件触发action建立函数 ---> action建立函数返回一个action ------>  action被传入redux中间件(被 saga等中间件处理) ，产生新的action，传入reducer------->  reducer把数据传给ui组件显示 -----> mapStateToProps ------> ui组件显示
 #### core：商城核心页面
@@ -173,53 +172,4 @@ helpers为辅助功能，定义了获取Jwt存储的数据功能、购物车的�
 
 store按Redux数据流的流动，分为actions、models、sagas和reducer四大部分。actions定义了用户操作、类别管理和商品状态的信息，models定义了类型判断的属性接口、sagas使用axios获取api中的数据传入reducer，由reducer添加状态到store进行存储。
 
-
-
-=======
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
->>>>>>> 购物商城v0.1
+### Thank You！！！
